@@ -39,6 +39,7 @@ export function EjeGasto() {
             law="Ley 21.091"
             articles="Artículo 25°"
             type="spending"
+            source="Proyecto de Ley, p. 56"
           />
           <MeasureCard
             number="2"
@@ -49,6 +50,7 @@ export function EjeGasto() {
             law="Ley 21.091"
             articles="Artículo 24°"
             type="spending"
+            source="Proyecto de Ley, p. 57"
           />
           <div className="xl:col-span-2">
             <MeasureCard
@@ -62,6 +64,7 @@ export function EjeGasto() {
               type="spending"
               evidence="solid"
               evidenceNote="Múltiples evaluaciones (DIPRES, Contraloría, Comisión Larrañaga) coinciden en que la franquicia no ha demostrado resultados."
+              source="Proyecto de Ley, p. 58"
             />
           </div>
           <MeasureCard
@@ -69,10 +72,11 @@ export function EjeGasto() {
             title="Aumenta cupos de incentivo al retiro"
             whatItDoes="Aumenta de 2.200 a 6.000 los cupos de incentivo al retiro para funcionarios públicos desde 2026. DIPRES asigna cupos adicionales."
             governmentClaim="Ahorro de USD 120 millones anuales en régimen al reemplazar funcionarios de alta remuneración por nuevos de menor costo."
-            risks="Sindicatos: retiro masivo puede generar pérdida de capital institucional y conocimiento crítico. El ahorro neto depende de la reposición."
+            risks="Entre las críticas formuladas durante el debate público se encuentra que el retiro masivo puede generar pérdida de capital institucional y conocimiento crítico, y que el ahorro neto dependerá de la reposición."
             law="Ley 20.948"
             articles="Artículos 28° y 29°"
             type="spending"
+            source="Proyecto de Ley, p. 59"
           />
           <MeasureCard
             number="5"
@@ -82,6 +86,7 @@ export function EjeGasto() {
             risks="Asociaciones de funcionarios: sanción automática de destitución puede ser desproporcionada para casos leves. Elimina gradualidad de sanciones actuales."
             articles="Artículo 30°"
             type="spending"
+            source="Proyecto de Ley, p. 60"
           />
           <MeasureCard
             number="6"
@@ -92,6 +97,7 @@ export function EjeGasto() {
             law="Código Tributario"
             articles="Artículos 22° y 23°"
             type="spending"
+            source="Proyecto de Ley, p. 61"
           />
           <MeasureCard
             number="7"
@@ -102,6 +108,7 @@ export function EjeGasto() {
             law="Ordenanza de Aduanas"
             articles="Artículo 31°"
             type="spending"
+            source="Proyecto de Ley, p. 62"
           />
         </div>
       </div>

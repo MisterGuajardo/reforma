@@ -55,6 +55,7 @@ export function MedidasInmediatas() {
             law="Ley 16.271"
             articles="Artículo primero transitorio"
             type="recovery"
+            source="Proyecto de Ley, p. 17"
           />
           <MeasureCard
             number="2"
@@ -65,6 +66,7 @@ export function MedidasInmediatas() {
             law="Código Tributario, art. 192"
             articles="Artículo segundo transitorio"
             type="recovery"
+            source="Proyecto de Ley, p. 18"
           />
           <MeasureCard
             number="3"
@@ -74,6 +76,7 @@ export function MedidasInmediatas() {
             risks="Expertos: estos procesos tienen resultados mixtos internacionalmente. Tasa del 10% puede ser insuficiente para atraer capitales significativos. Riesgo de lavado de activos."
             articles="Artículo tercero transitorio"
             type="recovery"
+            source="Proyecto de Ley, p. 19"
           />
           <MeasureCard
             number="4"
@@ -84,6 +87,7 @@ export function MedidasInmediatas() {
             law="Ley de Rentas Municipales"
             articles="Artículo décimo transitorio"
             type="recovery"
+            source="Proyecto de Ley, p. 20"
           />
           <div className="lg:col-span-2 xl:col-span-2">
             <MeasureCard
@@ -95,6 +99,7 @@ export function MedidasInmediatas() {
               law="Ley 21.210 / Ley 20.780"
               articles="Artículos décimo primero y décimo segundo transitorios"
               type="recovery"
+              source="Proyecto de Ley, p. 21"
             />
           </div>
         </div>
@@ -115,6 +120,7 @@ export function MedidasInmediatas() {
             type="recovery"
             chartSrc="/charts/23_page_23.png"
             chartAlt="Página del proyecto: exención IVA vivienda"
+            source="Proyecto de Ley, p. 23"
           />
           <MeasureCard
             number="2"
@@ -127,6 +133,7 @@ export function MedidasInmediatas() {
             type="recovery"
             chartSrc="/charts/24_page_24.png"
             chartAlt="Página del proyecto: régimen DFL2"
+            source="Proyecto de Ley, p. 24"
           />
         </div>
       </div>

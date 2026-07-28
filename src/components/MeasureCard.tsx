@@ -16,6 +16,7 @@ type MeasureCardProps = {
   risks?: string;
   law?: string;
   articles?: string;
+  source?: string;
   type?: "tax" | "permit" | "spending" | "recovery";
   chartSrc?: string;
   chartAlt?: string;
@@ -38,6 +39,7 @@ export function MeasureCard({
   risks,
   law,
   articles,
+  source,
   type = "tax",
   chartSrc,
   chartAlt,
@@ -139,6 +141,11 @@ export function MeasureCard({
           {articles && (
             <span>
               <span className="font-semibold text-slate-700">Art&iacute;culos:</span> {articles}
+            </span>
+          )}
+          {source && (
+            <span>
+              <span className="font-semibold text-slate-700">Fuente:</span> {source}
             </span>
           )}
         </div>

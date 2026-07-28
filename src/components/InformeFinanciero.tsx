@@ -111,6 +111,7 @@ export function InformeFinanciero() {
           Cifras en millones de pesos de 2026. Valores positivos/negativos implican que el flujo
           contribuye positiva/negativamente al balance fiscal.
         </p>
+        <p className="mb-8 text-xs text-slate-400">Fuente: Informe Financiero, pp. 64–67 del proyecto de ley.</p>
 
         <p className="text-lg font-bold text-slate-800 mb-4">1. Medidas con efecto en gasto</p>
         <Table><THead /><TBody data={gasto} totals={[-237075, -12396, 140093, 76734, 72017, 49375, 208370, 277328]} /></Table>

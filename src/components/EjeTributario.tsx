@@ -42,6 +42,7 @@ export function EjeTributario() {
               type="tax"
               evidence="mixed"
               evidenceNote="Estudios sobre créditos al empleo muestran resultados mixtos en creación neta de puestos de trabajo."
+              source="Proyecto de Ley, pp. 26–27"
             />
           </div>
           <MeasureCard
@@ -54,6 +55,7 @@ export function EjeTributario() {
             type="tax"
             evidence="mixed"
             evidenceNote="Estudios de la OCDE y el FMI encuentran resultados positivos en algunos países y efectos reducidos en otros."
+            source="Proyecto de Ley, p. 28"
           />
           <MeasureCard
             number="3"
@@ -64,6 +66,7 @@ export function EjeTributario() {
             law="Ley sobre Impuesto a la Renta"
             articles="Artículo 11°; artículo quinto transitorio"
             type="tax"
+            source="Proyecto de Ley, pp. 29–30"
           />
             <MeasureCard
               number="4"
@@ -75,6 +78,7 @@ export function EjeTributario() {
               type="tax"
               evidence="mixed"
               evidenceNote="La evidencia sobre el impacto de estatutos de invariabilidad en IED es mixta. Algunos estudios encuentran efectos positivos; otros, ninguno significativo."
+              source="Proyecto de Ley, p. 31"
             />
           <MeasureCard
             number="5"
@@ -85,6 +89,7 @@ export function EjeTributario() {
             law="Ley sobre Impuesto a la Renta"
             articles="Artículo 10°, números 2 y 4"
             type="tax"
+            source="Proyecto de Ley, p. 32"
           />
           <div className="lg:col-span-2">
             <MeasureCard
@@ -98,6 +103,7 @@ export function EjeTributario() {
               type="tax"
               chartSrc="/charts/33_contribuciones.png"
               chartAlt="Página del proyecto: exención contribuciones adultos mayores"
+              source="Proyecto de Ley, p. 33"
             />
           </div>
         </div>
