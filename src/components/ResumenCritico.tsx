@@ -123,22 +123,22 @@ export function ResumenCritico() {
           </p>
           <div className="grid gap-6 lg:grid-cols-2">
             <div className="space-y-4">
-              <p className="text-sm font-bold text-emerald-800 uppercase tracking-wider">Elementos destacables del proyecto</p>
+              <p className="text-sm font-bold text-emerald-800 uppercase tracking-wider">Oportunidades identificadas</p>
               <ul className="space-y-2 text-sm text-slate-600">
-                <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500" />Chile perdi&oacute; competitividad tributaria significativamente desde 2014</li>
-                <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500" />Plazos de evaluaci&oacute;n ambiental se duplicaron y son un cuello de botella real</li>
-                <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500" />El gasto tributario del SENCE no tiene resultados demostrados</li>
-                <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500" />La inversi&oacute;n requiere mayor certeza jur&iacute;dica</li>
-                <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500" />Problemas diagnosticados transversalmente como relevantes</li>
+                <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500" />Reducci&oacute;n de plazos de permisos que hoy duplican los tiempos de 2014</li>
+                <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500" />Simplificaci&oacute;n administrativa en evaluaci&oacute;n ambiental y concesiones</li>
+                <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500" />Posible mejora de competitividad tributaria respecto al promedio OCDE</li>
+                <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500" />Alivio tributario para empresas y trabajadores v&iacute;a cr&eacute;dito al empleo</li>
+                <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500" />Reducci&oacute;n de litigios regulatorios y mayor certeza jur&iacute;dica para inversionistas</li>
               </ul>
             </div>
             <div className="space-y-4">
-              <p className="text-sm font-bold text-red-800 uppercase tracking-wider">Puntos de atenci&oacute;n identificados</p>
+              <p className="text-sm font-bold text-red-800 uppercase tracking-wider">Riesgos y puntos de atenci&oacute;n</p>
               <ul className="space-y-2 text-sm text-slate-600">
-                <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-500" />Proyecciones del propio gobierno sin estudios independientes</li>
-                <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-500" />Costo fiscal de corto plazo: −$11,3 billones acumulados a&ntilde;o 5</li>
-                <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-500" />Medidas ambientales y de participaci&oacute;n debilitan controles</li>
-                <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-500" />Beneficios tributarios se concentran en percentiles de mayor ingreso</li>
+                <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-500" />Proyecciones del propio gobierno sin estudios independientes que las validen</li>
+                <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-500" />Costo fiscal de corto plazo: −$11,3 billones acumulados a&ntilde;o 5 sin efecto crecimiento</li>
+                <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-500" />Posible impacto ambiental por menor control en evaluaci&oacute;n de proyectos</li>
+                <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-500" />Incertidumbre sobre si el crecimiento esperado se materializar&aacute;</li>
                 <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-500" />Congela acceso a gratuidad de educaci&oacute;n superior sin fecha de reinicio</li>
               </ul>
             </div>
@@ -146,7 +146,7 @@ export function ResumenCritico() {
           <div className="mt-6 rounded-lg border border-amber-200 bg-amber-50 p-5">
             <p className="text-xs font-bold uppercase tracking-wider text-amber-800">Advertencia metodol&oacute;gica</p>
             <p className="mt-2 text-sm leading-relaxed text-slate-700">
-              Todas las proyecciones de impacto en PIB son estimaciones del Ministerio de Hacienda contenidas en el PDF original.
+              Todas las proyecciones de impacto en PIB provienen del Informe Financiero del Ministerio de Hacienda contenido en el PDF original.
               No existen estudios independientes que las avalen o refuten en su totalidad.
               Las secciones de &ldquo;riesgos y objeciones&rdquo; de este sitio son
               an&aacute;lisis editorial, no provienen del texto del proyecto de ley.

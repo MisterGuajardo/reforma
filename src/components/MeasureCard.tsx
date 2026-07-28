@@ -81,6 +81,9 @@ export function MeasureCard({
               <p className="text-sm leading-relaxed text-slate-700">
                 {governmentClaim}
               </p>
+              <p className="mt-3 text-xs text-slate-400 border-t border-blue-200 pt-2">
+                Seg&uacute;n el texto del proyecto de ley y el Informe Financiero del Ministerio de Hacienda.
+              </p>
             </div>
           )}
           {risks ? (

@@ -173,7 +173,7 @@ export function Contexto() {
               />
               <div className="mt-4 flex gap-4">
                 <div className="flex-1 rounded-xl bg-white p-5 border border-slate-200 shadow-sm">
-                  <p className="text-xs font-bold text-slate-700 uppercase">Hecho</p>
+                  <p className="text-xs font-bold text-slate-700 uppercase">Dato</p>
                   <p className="mt-2 text-sm text-slate-600">IDPC subi&oacute; de 20% a 27% en 2014. Chile es el &uacute;nico pa&iacute;s OCDE que subi&oacute; su impuesto corporativo entre 2000 y 2025.</p>
                 </div>
                 <div className="flex-1 rounded-xl bg-white p-5 border border-slate-200 shadow-sm">
@@ -192,8 +192,8 @@ export function Contexto() {
               />
               <div className="mt-4 flex gap-4">
                 <div className="flex-1 rounded-xl bg-white p-5 border border-slate-200 shadow-sm">
-                  <p className="text-xs font-bold text-slate-700 uppercase">Hecho</p>
-                  <p className="mt-2 text-sm text-slate-600">Chile perdi&oacute; 27 puestos en el ranking Tax Foundation entre 2014 y 2025.</p>
+                  <p className="text-xs font-bold text-slate-700 uppercase">Dato</p>
+                  <p className="mt-2 text-sm text-slate-600">Chile descendi&oacute; 27 posiciones en el &iacute;ndice de competitividad tributaria de Tax Foundation entre 2014 y 2025.</p>
                 </div>
                 <div className="flex-1 rounded-xl bg-white p-5 border border-slate-200 shadow-sm">
                   <p className="text-xs font-bold text-slate-700 uppercase">Cr&iacute;tica</p>
