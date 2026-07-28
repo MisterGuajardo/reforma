@@ -9,8 +9,9 @@ export function ResumenCritico() {
           &iquest;Qu&eacute; dice, qu&eacute; promete y qu&eacute; se le critica?
         </p>
         <p className="mb-12 max-w-3xl text-base leading-relaxed text-slate-500">
-          Este proyecto de ley es una propuesta del Ejecutivo. Como tal, tiene
-          fundamentos, promesas de impacto y cr&iacute;ticas fundadas.
+          Este proyecto de ley es una propuesta del Ejecutivo. A continuaci&oacute;n,
+          un resumen editorial de lo que propone cada eje, lo que el gobierno
+          proyecta y los riesgos identificados en este an&aacute;lisis.
         </p>
 
         {/* Eje 1 */}
@@ -30,7 +31,7 @@ export function ResumenCritico() {
                 <p className="mt-1 text-sm text-slate-700">+2,4% PIB a 10 a&ntilde;os. Recuperar competitividad. Atraer inversi&oacute;n.</p>
               </div>
               <div className="rounded-lg border-l-4 border-red-400 bg-red-50 p-4">
-                <p className="text-xs font-bold uppercase tracking-wider text-red-800">Riesgos y cr&iacute;ticas</p>
+                <p className="text-xs font-bold uppercase tracking-wider text-red-800">Riesgos (an&aacute;lisis editorial)</p>
                 <p className="mt-1 text-sm text-slate-700">−$1,65 billones al a&ntilde;o 4. La rebaja no garantiza inversi&oacute;n. Beneficia m&aacute;s a altos ingresos.</p>
               </div>
             </div>
@@ -63,7 +64,7 @@ export function ResumenCritico() {
                 <p className="mt-1 text-sm text-slate-700">+2,9% PIB a 10 a&ntilde;os. Destrabar inversiones. Reducir incertidumbre regulatoria.</p>
               </div>
               <div className="rounded-lg border-l-4 border-red-400 bg-red-50 p-4">
-                <p className="text-xs font-bold uppercase tracking-wider text-red-800">Riesgos y cr&iacute;ticas</p>
+                <p className="text-xs font-bold uppercase tracking-wider text-red-800">Riesgos (an&aacute;lisis editorial)</p>
                 <p className="mt-1 text-sm text-slate-700">Desregulaci&oacute;n ambiental. Restricci&oacute;n a justicia comunitaria. Riesgo de aprobaciones sin evaluaci&oacute;n suficiente.</p>
               </div>
             </div>
@@ -96,7 +97,7 @@ export function ResumenCritico() {
                 <p className="mt-1 text-sm text-slate-700">USD 570 M anuales en r&eacute;gimen + USD 420 M en medidas transitorias de recaudaci&oacute;n.</p>
               </div>
               <div className="rounded-lg border-l-4 border-red-400 bg-red-50 p-4">
-                <p className="text-xs font-bold uppercase tracking-wider text-red-800">Riesgos y cr&iacute;ticas</p>
+                <p className="text-xs font-bold uppercase tracking-wider text-red-800">Riesgos (an&aacute;lisis editorial)</p>
                 <p className="mt-1 text-sm text-slate-700">Posterga gratuidad. Elimina franquicia sin reemplazo. Privacidad datos vs fiscalizaci&oacute;n.</p>
               </div>
             </div>
@@ -114,10 +115,15 @@ export function ResumenCritico() {
 
         {/* Balance general */}
         <div className="rounded-xl border-2 border-slate-300 bg-white p-8 lg:p-10 shadow-md">
-          <p className="text-xl font-bold text-slate-900 mb-6 lg:text-2xl">Balance general del proyecto</p>
+          <p className="text-xl font-bold text-slate-900 mb-6 lg:text-2xl">Balance editorial del proyecto</p>
+          <p className="text-sm text-slate-500 mb-6">
+            Los siguientes puntos son una s&iacute;ntesis editorial de este sitio, no
+            provienen del texto del proyecto de ley ni representan necesariamente el
+            consenso de actores pol&iacute;ticos o acad&eacute;micos.
+          </p>
           <div className="grid gap-6 lg:grid-cols-2">
             <div className="space-y-4">
-              <p className="text-sm font-bold text-emerald-800 uppercase tracking-wider">Argumentos a favor</p>
+              <p className="text-sm font-bold text-emerald-800 uppercase tracking-wider">Elementos destacables del proyecto</p>
               <ul className="space-y-2 text-sm text-slate-600">
                 <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500" />Chile perdi&oacute; competitividad tributaria significativamente desde 2014</li>
                 <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500" />Plazos de evaluaci&oacute;n ambiental se duplicaron y son un cuello de botella real</li>
@@ -127,24 +133,26 @@ export function ResumenCritico() {
               </ul>
             </div>
             <div className="space-y-4">
-              <p className="text-sm font-bold text-red-800 uppercase tracking-wider">Argumentos en contra</p>
+              <p className="text-sm font-bold text-red-800 uppercase tracking-wider">Puntos de atenci&oacute;n identificados</p>
               <ul className="space-y-2 text-sm text-slate-600">
                 <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-500" />Proyecciones del propio gobierno sin estudios independientes</li>
                 <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-500" />Costo fiscal de corto plazo: −$11,3 billones acumulados a&ntilde;o 5</li>
                 <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-500" />Medidas ambientales y de participaci&oacute;n debilitan controles</li>
                 <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-500" />Beneficios tributarios se concentran en percentiles de mayor ingreso</li>
-                <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-500" />Posterga expansi&oacute;n de derechos sociales sin fecha definida</li>
+                <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-500" />Congela acceso a gratuidad de educaci&oacute;n superior sin fecha de reinicio</li>
               </ul>
             </div>
           </div>
           <div className="mt-6 rounded-lg border border-amber-200 bg-amber-50 p-5">
             <p className="text-xs font-bold uppercase tracking-wider text-amber-800">Advertencia metodol&oacute;gica</p>
             <p className="mt-2 text-sm leading-relaxed text-slate-700">
-              Todas las proyecciones de impacto en PIB son estimaciones del Ministerio de Hacienda.
-              No existen estudios independientes que las avalen o refuten en su totalidad. La
-              elasticidad entre rebaja tributaria y crecimiento es uno de los debates m&aacute;s
-              disputados de la econom&iacute;a. Las cifras deben leerse como
-              <strong> proyecciones del gobierno</strong>, no como certezas.
+              Todas las proyecciones de impacto en PIB son estimaciones del Ministerio de Hacienda contenidas en el PDF original.
+              No existen estudios independientes que las avalen o refuten en su totalidad.
+              Las secciones de &ldquo;riesgos y objeciones&rdquo; de este sitio son
+              an&aacute;lisis editorial, no provienen del texto del proyecto de ley.
+              La elasticidad entre rebaja tributaria y crecimiento es uno de los debates m&aacute;s
+              disputados de la econom&iacute;a. Las cifras del gobierno deben leerse como
+              <strong> proyecciones oficiales</strong>, no como certezas.
             </p>
           </div>
         </div>

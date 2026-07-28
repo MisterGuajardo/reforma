@@ -92,16 +92,19 @@ export function MeasureCard({
               <p className="text-sm leading-relaxed text-slate-700">
                 {risks}
               </p>
+              <p className="mt-3 text-xs text-slate-400 border-t border-orange-200 pt-2">
+                An&aacute;lisis editorial &middot; No forma parte del texto del proyecto de ley.
+              </p>
             </div>
           ) : (
             <div className="rounded-lg bg-slate-50 border border-slate-200 p-5">
               <h4 className="mb-2 flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-slate-500">
                 <span className="text-base" aria-hidden="true">&mdash;</span>
-                Sin objeciones documentadas
+                Sin objeciones identificadas
               </h4>
               <p className="text-xs leading-relaxed text-slate-400">
-                No se encontraron objeciones p&uacute;blicas significativas a
-                esta medida en particular.
+                No se identificaron riesgos significativos en el an&aacute;lisis
+                editorial de esta medida.
               </p>
             </div>
           )}

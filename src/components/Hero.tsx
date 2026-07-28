@@ -24,9 +24,10 @@ export function Hero() {
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-relaxed text-slate-300 sm:text-lg">
               An&aacute;lisis estructurado del proyecto de ley ingresado por
-              el Ministerio de Hacienda: el texto oficial, las proyecciones
-              del gobierno y las objeciones de sus cr&iacute;ticos, para que
-              cada lector pueda formarse su propio juicio.
+              el Ministerio de Hacienda: el texto oficial del proyecto, las
+              proyecciones del gobierno y un an&aacute;lisis editorial de
+              posibles riesgos, para que cada lector pueda formarse su propio
+              juicio.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <span className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300 backdrop-blur-sm">

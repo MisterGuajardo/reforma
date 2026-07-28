@@ -14,18 +14,19 @@ export function Footer() {
           <div>
             <p className="mb-2 text-sm font-semibold text-white">Metodolog&iacute;a</p>
             <p className="text-xs leading-relaxed">
-              Este sitio presenta el texto oficial del proyecto, las proyecciones
-              del gobierno y las objeciones de sus cr&iacute;ticos. Las cifras
-              de impacto en PIB son estimaciones del Ministerio de Hacienda.
+              El PDF original contiene &uacute;nicamente la perspectiva del
+              Ministerio de Hacienda. Las secciones de &laquo;Riesgos y
+              objeciones&raquo; y &laquo;Balance general&raquo; son an&aacute;lisis
+              editorial sintetizado, no citas textuales del documento oficial.
             </p>
           </div>
           <div>
             <p className="mb-2 text-sm font-semibold text-white">Sin afiliaci&oacute;n</p>
             <p className="text-xs leading-relaxed">
-              Sin afiliaci&oacute;n gubernamental ni partidista. No representa
-              opini&oacute;n pol&iacute;tica. Su prop&oacute;sito es presentar
-              la informaci&oacute;n disponible para que cada lector forme su
-              propio juicio.
+              Sin afiliaci&oacute;n gubernamental ni partidista. Este sitio no
+              representa una opini&oacute;n pol&iacute;tica; es un ejercicio de
+              an&aacute;lisis editorial independiente para facilitar la
+              comprensi&oacute;n del proyecto de ley.
             </p>
           </div>
         </div>
