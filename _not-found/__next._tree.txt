@@ -1,2 +1,2 @@
-:HL["/reforma/_next/static/chunks/1wgwrsu99_8pt.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"jzpWSveoYemo7tWyO9T3F"}
+:HL["/reforma/_next/static/chunks/4062bxbrtrcwb.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"-cztcjl17Nfdga1KD-n6W"}
