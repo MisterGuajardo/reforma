@@ -196,8 +196,8 @@ export function Contexto() {
                   <p className="mt-2 text-sm text-slate-600">Chile descendi&oacute; 27 posiciones en el &iacute;ndice de competitividad tributaria de Tax Foundation entre 2014 y 2025.</p>
                 </div>
                 <div className="flex-1 rounded-xl bg-white p-5 border border-slate-200 shadow-sm">
-                  <p className="text-xs font-bold text-slate-700 uppercase">Cr&iacute;tica</p>
-                  <p className="mt-2 text-sm text-slate-600">El ranking mide tasa legal, no efectiva. La competitividad tributaria depende del sistema completo.</p>
+                  <p className="text-xs font-bold text-slate-700 uppercase">Contexto</p>
+                  <p className="mt-2 text-sm text-slate-600">Tax Foundation es un centro de estudios que elabora este &iacute;ndice con criterios de competitividad tributaria. Existen otros indicadores internacionales con metodolog&iacute;as distintas.</p>
                 </div>
               </div>
             </div>

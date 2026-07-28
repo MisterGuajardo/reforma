@@ -37,9 +37,11 @@ export function EjeTributario() {
               title="Crédito tributario para protección del empleo formal"
               whatItDoes="Crédito para contribuyentes que paguen remuneraciones afectas a Impuesto de 2ª Categoría. Monto: 15% para sueldos hasta 7,8 UTM, decreciente hasta 12 UTM. Se imputa contra PPM e IVA."
               governmentClaim="Beneficia a +270 mil contribuyentes (86% PYMES) y +4 millones de trabajadores. Reduce tasa efectiva mediana de PYMES de 12,5% a 7,8%. Impacto: +0,84% PIB a 10 años."
-              risks="Costo anual superior a $1,5 billones. Algunos analistas señalan que subsidiar el empleo vía impuestos distorsiona el mercado laboral. El beneficio aplica sobre todos los trabajadores formales, no solo nuevas contrataciones — efecto derrame sobre empleo existente, no creación neta."
+              risks="Costo anual superior a $1,5 billones. Entre las críticas formuladas durante el debate público se encuentra que subsidiar el empleo vía impuestos distorsiona el mercado laboral. El beneficio aplica sobre todos los trabajadores formales, no solo nuevas contrataciones — efecto derrame sobre empleo existente, no creación neta."
               articles="Artículo 9°"
               type="tax"
+              evidence="mixed"
+              evidenceNote="Estudios sobre créditos al empleo muestran resultados mixtos en creación neta de puestos de trabajo."
             />
           </div>
           <MeasureCard
@@ -47,35 +49,39 @@ export function EjeTributario() {
             title="Rebaja del Impuesto de Primera Categoría (IDPC)"
             whatItDoes="Reduce tasa del IDPC de 27% a 23% gradualmente: 2026: 27%, 2027: 25,5%, 2028: 24%, 2029: 23%."
             governmentClaim="Recupera competitividad tributaria. Impacto: +2,4% PIB a 10 años. La tasa de EE.UU. es 21%."
-            risks="Costo: −$584.409 M (año 2), −$1.200.731 M (año 3), −$1.650.712 M (año 4). Algunos analistas señalan que la rebaja tendría un efecto mayor en contribuyentes de mayores ingresos. La evidencia internacional sobre el impacto de rebajas tributarias en la inversión es mixta."
+            risks="Costo: −$584.409 M (año 2), −$1.200.731 M (año 3), −$1.650.712 M (año 4). Entre las críticas formuladas durante el debate público se encuentra que la rebaja tendría un efecto mayor en contribuyentes de mayores ingresos. La evidencia internacional sobre el impacto de rebajas tributarias en la inversión es mixta."
             articles="Artículo 10°, núms. 1 y 3; arts. 6° y 7° transitorios"
             type="tax"
+            evidence="mixed"
+            evidenceNote="Estudios de la OCDE y el FMI encuentran resultados positivos en algunos países y efectos reducidos en otros."
           />
           <MeasureCard
             number="3"
             title="Reintegración del Sistema Tributario"
             whatItDoes="Elimina la obligación de restitución del crédito IDPC, volviendo a un sistema 100% integrado. IDPC imputable totalmente contra IGC o Impuesto Adicional."
             governmentClaim="Elimina inequidad: chilenos 44,45% vs extranjeros 35%. Elimina desincentivo al crecimiento de PYMES. Impacto: +0,41% PIB."
-            risks="Costo: −$9.286 M a −$81.963 M anual. Algunos analistas señalan que beneficia a los tramos de mayor ingreso y que revierte una modificación introducida en 2014. La tasa máxima para personas naturales bajaría de 44,45% a 40%."
+            risks="Costo: −$9.286 M a −$81.963 M anual. Entre las críticas formuladas durante el debate público se encuentra que beneficia a los tramos de mayor ingreso y que revierte una modificación introducida en 2014. La tasa máxima para personas naturales bajaría de 44,45% a 40%."
             law="Ley sobre Impuesto a la Renta"
             articles="Artículo 11°; artículo quinto transitorio"
             type="tax"
           />
-          <MeasureCard
-            number="4"
-            title="Estatuto de invariabilidad tributaria"
-            whatItDoes="Nuevo estatuto para inversiones sobre USD 50 millones. Extranjeros: tasa máxima 35% (excluye royalty). Locales: asegura estatuto vigente al contratar."
-            governmentClaim="Atrae IED. Reemplaza DL600 que atrajo +USD 100 mil millones hasta 2015. Impacto: +1,5% PIB a 10 años."
-            risks="Algunos analistas señalan que limitaría la capacidad del Estado de modificar impuestos para grandes inversionistas, generando un tratamiento distinto entre grandes y pequeños. El DL600 —que este estatuto reemplazaría— fue derogado tras experiencias con la industria minera."
-            articles="Artículo 33°"
-            type="tax"
-          />
+            <MeasureCard
+              number="4"
+              title="Estatuto de invariabilidad tributaria"
+              whatItDoes="Nuevo estatuto para inversiones sobre USD 50 millones. Extranjeros: tasa máxima 35% (excluye royalty). Locales: asegura estatuto vigente al contratar."
+              governmentClaim="Atrae IED. Reemplaza DL600 que atrajo +USD 100 mil millones hasta 2015. Impacto: +1,5% PIB a 10 años."
+              risks="Entre las críticas formuladas durante el debate público se encuentra que limitaría la capacidad del Estado de modificar impuestos para grandes inversionistas, generando un tratamiento distinto entre grandes y pequeños. El DL600 —que este estatuto reemplazaría— fue derogado tras experiencias con la industria minera."
+              articles="Artículo 33°"
+              type="tax"
+              evidence="mixed"
+              evidenceNote="La evidencia sobre el impacto de estatutos de invariabilidad en IED es mixta. Algunos estudios encuentran efectos positivos; otros, ninguno significativo."
+            />
           <MeasureCard
             number="5"
             title="Eliminación del impuesto único de 10% a ganancias de capital"
             whatItDoes="Elimina el impuesto único de 10% al mayor valor en enajenación de valores con presencia bursátil. Vuelve a ser Ingreso No Constitutivo de Renta."
             governmentClaim="Elimina desincentivo a la inversión en bolsa. Reduce carga tributaria del mercado de capitales."
-            risks="Costo: −$17.679 M (año 2) a −$30.513 M (año 25). Algunos analistas señalan que las ganancias de capital quedarían totalmente exentas, a diferencia de la mayoría de países OCDE donde sí tributan. Diversos estudios indican que el beneficio se concentraría en contribuyentes de altos ingresos."
+            risks="Costo: −$17.679 M (año 2) a −$30.513 M (año 25). Entre las críticas formuladas durante el debate público se encuentra que las ganancias de capital quedarían totalmente exentas, a diferencia de la mayoría de países OCDE donde sí tributan. Diversos estudios indican que el beneficio se concentraría en contribuyentes de altos ingresos."
             law="Ley sobre Impuesto a la Renta"
             articles="Artículo 10°, números 2 y 4"
             type="tax"
@@ -86,7 +92,7 @@ export function EjeTributario() {
               title="Exención de contribuciones para mayores de 65 años"
               whatItDoes="Exime del Impuesto Territorial a propietarios mayores de 65 años respecto de su vivienda principal. La Ley de Presupuestos compensará al Fondo Común Municipal."
               governmentClaim="Beneficia a 300 mil adultos mayores con alivio financiero en etapa de menores ingresos."
-              risks="Costo: −$56.894 M (año 1) a −$243.093 M (año 25) por compensación al Fondo Común Municipal. Algunos analistas señalan que el beneficio no está focalizado por nivel de ingresos y que los municipios perderían ingresos que luego compensa el gobierno central."
+              risks="Costo: −$56.894 M (año 1) a −$243.093 M (año 25) por compensación al Fondo Común Municipal. Entre las críticas formuladas durante el debate público se encuentra que el beneficio no está focalizado por nivel de ingresos y que los municipios perderían ingresos que luego compensa el gobierno central."
               law="Ley 17.235, Impuesto Territorial"
               articles="Artículo 12°, artículo octavo transitorio"
               type="tax"

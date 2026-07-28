@@ -1,5 +1,13 @@
 import Image from "next/image";
 
+type EvidenceLevel = "solid" | "mixed" | "limited";
+
+const evidenceConfig: Record<EvidenceLevel, { label: string; color: string }> = {
+  solid: { label: "Evidencia s\u00f3lida", color: "bg-emerald-100 text-emerald-800" },
+  mixed: { label: "Evidencia mixta", color: "bg-amber-100 text-amber-800" },
+  limited: { label: "Evidencia limitada", color: "bg-red-100 text-red-800" },
+};
+
 type MeasureCardProps = {
   number: string;
   title: string;
@@ -11,6 +19,8 @@ type MeasureCardProps = {
   type?: "tax" | "permit" | "spending" | "recovery";
   chartSrc?: string;
   chartAlt?: string;
+  evidence?: EvidenceLevel;
+  evidenceNote?: string;
 };
 
 const typeStyles = {
@@ -31,6 +41,8 @@ export function MeasureCard({
   type = "tax",
   chartSrc,
   chartAlt,
+  evidence,
+  evidenceNote,
 }: MeasureCardProps) {
   const style = typeStyles[type];
   return (
@@ -81,9 +93,14 @@ export function MeasureCard({
               <p className="text-sm leading-relaxed text-slate-700">
                 {governmentClaim}
               </p>
-              <p className="mt-3 text-xs text-slate-400 border-t border-blue-200 pt-2">
-                Seg&uacute;n el texto del proyecto de ley y el Informe Financiero del Ministerio de Hacienda.
-              </p>
+              <div className="mt-3 flex flex-wrap gap-1.5 border-t border-blue-200 pt-2">
+                <span className="inline-block rounded bg-blue-100 px-2 py-0.5 text-xs font-medium text-blue-700">
+                  Proyecto de Ley
+                </span>
+                <span className="inline-block rounded bg-blue-100 px-2 py-0.5 text-xs font-medium text-blue-700">
+                  Informe Financiero
+                </span>
+              </div>
             </div>
           )}
           {risks ? (
@@ -125,6 +142,17 @@ export function MeasureCard({
             </span>
           )}
         </div>
+
+        {evidence && (
+          <div className="mt-4 flex flex-wrap items-center gap-2 border-t border-slate-200 pt-3">
+            <span className={`inline-block rounded px-2 py-0.5 text-xs font-medium ${evidenceConfig[evidence].color}`}>
+              {evidenceConfig[evidence].label}
+            </span>
+            {evidenceNote && (
+              <span className="text-xs text-slate-400">{evidenceNote}</span>
+            )}
+          </div>
+        )}
       </div>
     </article>
   );

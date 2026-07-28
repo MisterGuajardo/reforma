@@ -67,6 +67,7 @@ export function Hero() {
           <a href="#eje-permisos" className="text-slate-400 transition-colors hover:text-white">Permisos</a>
           <a href="#eje-gasto" className="text-slate-400 transition-colors hover:text-white">Gasto</a>
           <a href="#resumen-critico" className="text-slate-400 transition-colors hover:text-white">Balance</a>
+          <a href="#lo-que-sabemos" className="text-slate-400 transition-colors hover:text-white">L&iacute;mites</a>
           <a href="#financiero" className="text-slate-400 transition-colors hover:text-white">Financiero</a>
         </div>
       </nav>

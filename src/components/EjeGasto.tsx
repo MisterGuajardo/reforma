@@ -35,7 +35,7 @@ export function EjeGasto() {
             title="Moratoria ingreso nuevas IES a la gratuidad"
             whatItDoes="Suspende por 2 años el ingreso de nuevas instituciones de educación superior al sistema de financiamiento para la gratuidad."
             governmentClaim="Menor gasto por USD 320 millones. Permite evaluar sostenibilidad del sistema antes de expandirlo."
-            risks="Algunos analistas señalan que limitaría el acceso de estudiantes de menores ingresos y que podría beneficiar a IES establecidas al restringir la entrada de nuevos competidores. El proyecto no establece una fecha de reapertura."
+            risks="Entre las críticas formuladas durante el debate público se encuentra que limitaría el acceso de estudiantes de menores ingresos y que podría beneficiar a IES establecidas al restringir la entrada de nuevos competidores. El proyecto no establece una fecha de reapertura."
             law="Ley 21.091"
             articles="Artículo 25°"
             type="spending"
@@ -45,7 +45,7 @@ export function EjeGasto() {
             title="Aumento del umbral para extensión de gratuidad"
             whatItDoes="Eleva umbrales: 7° decil: ≥29,5%; 8°: ≥30,5%; 9°: ≥32,5%; Universal: ≥35,5% del PIB Tendencial No Minero (2 años consecutivos)."
             governmentClaim="Propuesta textual del proyecto FES. Condiciona expansión a disponibilidad fiscal."
-            risks="Algunos analistas señalan que eleva los umbrales respecto a la ley actual (23,5%) y que la gratuidad universal podría retrasarse, dado que el PIB tendencial no minero ha superado el 30% en contadas ocasiones."
+            risks="Entre las críticas formuladas durante el debate público se encuentra que eleva los umbrales respecto a la ley actual (23,5%) y que la gratuidad universal podría retrasarse, dado que el PIB tendencial no minero ha superado el 30% en contadas ocasiones."
             law="Ley 21.091"
             articles="Artículo 24°"
             type="spending"
@@ -60,6 +60,8 @@ export function EjeGasto() {
               law="Ley 19.518 / Ley 20.267"
               articles="Artículos 26° y 27°"
               type="spending"
+              evidence="solid"
+              evidenceNote="Múltiples evaluaciones (DIPRES, Contraloría, Comisión Larrañaga) coinciden en que la franquicia no ha demostrado resultados."
             />
           </div>
           <MeasureCard

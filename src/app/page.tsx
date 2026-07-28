@@ -5,6 +5,7 @@ import { EjeTributario } from "@/components/EjeTributario";
 import { EjePermisos } from "@/components/EjePermisos";
 import { EjeGasto } from "@/components/EjeGasto";
 import { ResumenCritico } from "@/components/ResumenCritico";
+import { LoQueSabemos } from "@/components/LoQueSabemos";
 import { InformeFinanciero } from "@/components/InformeFinanciero";
 import { Footer } from "@/components/Footer";
 
@@ -19,6 +20,7 @@ export default function Home() {
         <EjePermisos />
         <EjeGasto />
         <ResumenCritico />
+        <LoQueSabemos />
         <InformeFinanciero />
       </main>
       <Footer />
